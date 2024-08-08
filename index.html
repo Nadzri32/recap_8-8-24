@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document Nadzri</title>
+    <!--ini Internal-->
+    <style>
+        h1 {
+            background-color: aqua;
+            border: 5px solid;
+            padding: 8px;
+        }
+    </style>
+    <link rel="stylesheet" href="css\style.css">
 </head>
 <body>
+    <header style="display: flex;
+    align-content: space-around;
+    justify-content: space-around;">
+        <h1>Ini Title kiri</h1>
+        <h1>Ini Title kanan</h1>
+    </header>
+
+    <article>
+        <!--Ini Inline-->
+        <p style="color: red;">Ini Kontennya</p>
+
+        <header>
+            <h2>Ini Title 2 </h2>
+        </header>
+        <!--ini Saklar-->
+        <button onclick="lampu(0);">saklar</button>
+
+        <aside>
+
+        </aside>
+    </article>
+
+    <script>
+        function lampu(n){
+            if (n == 0) {
+            alert('Lampunya Menyala')
+            }
+        }
+    </script>
     
 </body>
 </html>
